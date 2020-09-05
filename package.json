@@ -1,6 +1,6 @@
 {
   "name": "@monoverde/utilsjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NPM package to make programmers life easiest",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,8 @@
   "bugs": {
     "url": "https://github.com/Monoverde888/utilsjs/issues"
   },
-  "homepage": "https://github.com/Monoverde888/utilsjs#readme"
-
+  "homepage": "https://github.com/Monoverde888/utilsjs#readme",
+  "devDependencies": {
+    "jsdoc": "^3.6.5"
+  }
 }
