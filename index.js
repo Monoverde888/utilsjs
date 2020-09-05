@@ -9,17 +9,3 @@ exports.randomNumber = function(min, max) {
     return Math.floor(Math.random() * (max - min) + min) 
   }
   
-/**
- * This generates a random number or letter 
- * Usage: util.randomLetter("ABCDEFGHIJKLMNOPQRSTUVWQYZ")
- * @param {string} letters 
- */
-exports.randomLetter = function(letters) {
-    var result           = '';
-    var characters       = letters;
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-       result += characters.charAt(Math.floor(Math.random() * charactersLength));
-    }
-    return result;
- }
